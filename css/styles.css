@@ -1,0 +1,134 @@
+body{
+    font-family: 'Bad Script', cursive;
+    margin: 0;
+}
+img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+.menu-imgs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgs{
+    width: 350px;
+    height: 350px;
+    margin:auto 50px;
+    border-radius: 50%;
+}
+.search{
+    text-align: right;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+.div1{
+    background-image: linear-gradient(#CED4DA,#DEE2E6,#E9ECEF);
+}
+.div1 input{
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 200px; 
+}
+.div1 h1{
+    padding-left: 40px; 
+    color: #222831; 
+    display: inline-block;
+    font-family: 'Rock Salt', cursive;
+}
+article {
+    width: 300px;
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 10px;
+    margin:  30px 70px;
+    display: inline-block;
+    width: 320px;
+    padding-left: 0px;
+    padding-right: 15px;
+    
+}
+.nav-area a {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-area{
+   background-color: rgb(52, 50, 51);
+}
+.nav-area:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.nav-area ul {
+    list-style: none;
+    margin: 0;
+}
+.nav-area > ul > li {
+    float: left;
+    position: relative;
+}
+.nav-area ul li a {
+    color: #2bc4ad;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.nav-area ul li:hover a {
+    background-color: #3b3d3d;
+}
+.nav-area ul ul {
+    position: absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+.nav-area ul li:hover > ul {
+    display: block;
+}
+.nav-area ul ul li:hover a {
+    background-color:#252525;
+}
+.nav-area ul ul li {
+    position: relative;
+}
+.nav-area ul ul ul {
+    top: 0;
+    left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+    background-color: rgb(52, 50, 51);
+}
+.container *{
+    color: #2bc4ad;
+    line-height: 1.5;
+   text-align: center;
+}
+.container p{
+    color: black;
+    padding: 5px;
+    display: inline;
+}
+.container h2{
+    margin: 0 auto 10px;
+    color: black;
+}
+.container h3 {
+    display: inline;
+}
+.container button{
+    padding: 10px 15px;
+    margin: 20px auto;
+    color:rgb(229, 104, 229);
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color:whitesmoke;
+}
+.container button:hover{
+    background-color:#252525;
+}
